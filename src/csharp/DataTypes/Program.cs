@@ -1,7 +1,7 @@
 ﻿
-// byte is unsigned 8-bit integer (0 to 255)
 using System.Diagnostics;
 
+// byte is unsigned 8-bit integer (0 to 255)
 byte b1 = 66;
 
 Console.WriteLine($"Decimal: {b1}");

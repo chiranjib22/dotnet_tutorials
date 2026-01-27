@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClass", "ConsoleClas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{58C5F8E4-AB2A-47AD-AFCF-CF6607EB924D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Literals", "Literals\Literals.csproj", "{4F7AAB7E-426D-4CD0-A250-E5AB71DFD00F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58C5F8E4-AB2A-47AD-AFCF-CF6607EB924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58C5F8E4-AB2A-47AD-AFCF-CF6607EB924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58C5F8E4-AB2A-47AD-AFCF-CF6607EB924D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7AAB7E-426D-4CD0-A250-E5AB71DFD00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7AAB7E-426D-4CD0-A250-E5AB71DFD00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7AAB7E-426D-4CD0-A250-E5AB71DFD00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7AAB7E-426D-4CD0-A250-E5AB71DFD00F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
