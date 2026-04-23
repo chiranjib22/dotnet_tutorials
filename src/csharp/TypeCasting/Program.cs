@@ -37,7 +37,7 @@ double num2Double = 1.23;
 
 int num2Int = (int)num2Double; // Explicit casting from double to int
 
-// value before conversion
+//value before conversion
 Console.WriteLine($"num2Double value: {num2Double}");
 
 //value after conversion
@@ -47,8 +47,11 @@ Console.WriteLine($"num2Int value: {num2Int}");
 int num3Int = 500;
 byte num3Byte = (byte)num3Int; 
 
+
+
+
 // Using Convert Class for type conversion
-// When the types are not compatiable.
+// When the types are not compatiable but value must be convertable
 string  strNum = "123";
 int num4Int = Convert.ToInt32(strNum); // Convert string to int
 
@@ -72,8 +75,9 @@ try
     Console.WriteLine(ex.Message.ToString());
 }
 
-// Parse Method for type conversion
 
+// build in types in C# have built-in methods for type conversion, such as Parse and TryParse methods.
+// Parse Method for type conversion
 string strNum2 = "456";
 int num7Int = int.Parse(strNum2); // Parse method implemented with build-in types.
 Console.WriteLine($"Original String Value: {strNum2} and converted int value: {num7Int}");
@@ -92,7 +96,6 @@ int num8Int = int.Parse(strNum3);
 }
 
 // TryParse method for type conversion
-
 string strNum4 = "789";
 bool isConverted = int.TryParse(strNum4, out int num9Int); // TryParse method implemented with build-in types.
 if (isConverted)
