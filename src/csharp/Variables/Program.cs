@@ -8,18 +8,22 @@ internal class Program
 {
     public static int x = 100; // static variable
     public int y = 200; // non static variable
-
-    public Program(int a)
+    public const float PI = 3.14f; // constant variable 
+    public readonly int r = 0; // readonly variable
+    public Program(int a,int b)
     {
         y = a; // assigning value to non static variable in constructor
+        r = b; // readonly variable can be initialized with constructor
     }
     static void Main(string[] args)
     {
-        int z; // static variable
+        int z = (int)(PI); // static variable
         Console.WriteLine($"Static variable x: {x}");
-        var obj = new Program(10);
-        var obj2 = new Program(20);
+        Console.WriteLine($"Constant variable PI: {PI}");
+        var obj = new Program(10,5);
+        var obj2 = new Program(20,4);
         Console.WriteLine($"Non static variable y: {obj.y}");
         Console.WriteLine($"Non static variable y: {obj2.y}");
+        Console.WriteLine($"The readonly varibale z: {obj.r}");
     }
 }
