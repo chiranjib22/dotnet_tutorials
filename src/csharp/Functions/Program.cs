@@ -16,6 +16,14 @@ Console.WriteLine(squareRoot);
 // 4. Access Specifier: Optional. Scope : private, public, protected
 // 5. Modifier : Optional. Access Type : static, virtual, parital, sealed.
 //                                       static  : accessing directly without creating its instance
-//                                       virtual : means override the function and changed its logic with same prototype
+//                                       virtual : means override the function and changed its logic with same method signature
 //                                       parital : split the defination
 // 6. Function Body: Mandatory
+
+// Method Signature : consist of method name and parameter list
+
+static int Add(int a, int b)
+{
+    int sum = a + b;
+    return sum; // terminates the execution of a function and return the control to the calling function
+}
