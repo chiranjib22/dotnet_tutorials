@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Func
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedFunction", "UserDefinedFunction\UserDefinedFunction.csproj", "{AA97A34C-A6D0-443D-87DE-D78FE82D3025}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallByValueOrReference", "CallByValueOrReference\CallByValueOrReference.csproj", "{5647E2CF-5B69-4861-A506-83A68B219264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AA97A34C-A6D0-443D-87DE-D78FE82D3025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA97A34C-A6D0-443D-87DE-D78FE82D3025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA97A34C-A6D0-443D-87DE-D78FE82D3025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5647E2CF-5B69-4861-A506-83A68B219264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5647E2CF-5B69-4861-A506-83A68B219264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5647E2CF-5B69-4861-A506-83A68B219264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5647E2CF-5B69-4861-A506-83A68B219264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
