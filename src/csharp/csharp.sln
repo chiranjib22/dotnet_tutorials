@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineArguments", "Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{7B9DC4F7-82CA-47AF-A5E1-79DC681F7981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsNonStaticMembers", "StaticVsNonStaticMembers\StaticVsNonStaticMembers.csproj", "{5E30AD33-1F3C-4433-AFA6-07268429AA04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{7B9DC4F7-82CA-47AF-A5E1-79DC681F7981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9DC4F7-82CA-47AF-A5E1-79DC681F7981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9DC4F7-82CA-47AF-A5E1-79DC681F7981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E30AD33-1F3C-4433-AFA6-07268429AA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E30AD33-1F3C-4433-AFA6-07268429AA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E30AD33-1F3C-4433-AFA6-07268429AA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E30AD33-1F3C-4433-AFA6-07268429AA04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
