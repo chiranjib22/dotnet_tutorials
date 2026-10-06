@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticKeyword", "StaticKeyword\StaticKeyword.csproj", "{21B97070-ED03-DCDC-BE41-4F97247ACB59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverridingToString", "OverridingToString\OverridingToString.csproj", "{60B01DA8-7F23-4226-A020-05977E786938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverridingEquals", "OverridingEquals\OverridingEquals.csproj", "{BCB2CD9E-809C-4D08-8210-55C573CB7BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{21B97070-ED03-DCDC-BE41-4F97247ACB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B97070-ED03-DCDC-BE41-4F97247ACB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B97070-ED03-DCDC-BE41-4F97247ACB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B01DA8-7F23-4226-A020-05977E786938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B01DA8-7F23-4226-A020-05977E786938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B01DA8-7F23-4226-A020-05977E786938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B01DA8-7F23-4226-A020-05977E786938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB2CD9E-809C-4D08-8210-55C573CB7BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB2CD9E-809C-4D08-8210-55C573CB7BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB2CD9E-809C-4D08-8210-55C573CB7BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB2CD9E-809C-4D08-8210-55C573CB7BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
