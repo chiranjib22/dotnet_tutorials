@@ -20,34 +20,44 @@
 
 // system defined default constructor(parameterless)
 // user defined default constructor(parameterless)
-using Constructors;
+//using Constructors;
 
-Employee e1 = new Employee();
-Console.WriteLine("Employee Id is: " + e1.Id);
-Console.WriteLine("Employee Name is: " + e1.Name);
-Console.WriteLine("Employee Age is: " + e1.Age);
-Console.WriteLine("Employee Address is: " + e1.Address);
-Console.WriteLine("Is Employee Permanent: " + e1.IsPermanent);
+//Employee e1 = new Employee();
+//Console.WriteLine("Employee Id is: " + e1.Id);
+//Console.WriteLine("Employee Name is: " + e1.Name);
+//Console.WriteLine("Employee Age is: " + e1.Age);
+//Console.WriteLine("Employee Address is: " + e1.Address);
+//Console.WriteLine("Is Employee Permanent: " + e1.IsPermanent);
 
 
 // parameterized constructor (parameterized)
-ParameterizedConstructor p1 = new ParameterizedConstructor(10);
+//ParameterizedConstructor p1 = new ParameterizedConstructor(10);
 
 // copy constructor
-CopyConstructor obj1 = new CopyConstructor(20);
-obj1.Display();
-CopyConstructor obj2 = new CopyConstructor(obj1);
-obj2.Display();
+//CopyConstructor obj1 = new CopyConstructor(20);
+//obj1.Display();
+//CopyConstructor obj2 = new CopyConstructor(obj1);
+//obj2.Display();
 
 // IN one class there are 1 (no argument constructor) and n number of parameterized constructor
 
 
 // static constructor are responsible for defining static variables
-StaticConstructor.Display();
+//StaticConstructor.Display();
 
-StaticConstructor s1 = new StaticConstructor();
+//StaticConstructor s1 = new StaticConstructor();
 
 // private constructor
 //PrivateConstructor p1 = new PrivateConstructor(); // cannot be called outside of the class
 
 
+//using Constructors;
+
+//Child obj = new Child();
+
+using Constructors;
+
+SingletonPattern fromPlace1 = SingletonPattern.GetSingletonInstance();
+fromPlace1.SomeMethod("From place 1");
+SingletonPattern fromplace2 = SingletonPattern.GetSingletonInstance();
+fromplace2.SomeMethod("From place 2");

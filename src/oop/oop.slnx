@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="AccessSpecifiers/AccessSpecifiers.csproj" Id="7c8115d0-cd60-40ba-ba9f-31961c112f86" />
+  <Project Path="AssemblyOne/AssemblyOne.csproj" Id="30413698-2625-4a14-8884-856fc42cef8b" />
   <Project Path="ClassesandObjects/ClassesandObjects.csproj" />
   <Project Path="Constructors/Constructors.csproj" Id="c37eb5a1-f3ce-4d03-9ab2-a4cfe5c6c1e1" />
+  <Project Path="Destructor/Destructor.csproj" Id="8105f936-5bcf-4166-9724-d78546a4c4c8" />
+  <Project Path="GarbageCollectionsDemo/GarbageCollectionsDemo.csproj" Id="fef2d0a3-57b1-4f2c-806c-d67d9e96980d" />
 </Solution>
